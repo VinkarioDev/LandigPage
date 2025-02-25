@@ -26,15 +26,21 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 10px  ;
+    left: 140px;
+    right: 140px;
+    background-color: #fff;
 }
 
 .options-menu{
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .options-menu ul li{
     list-style: none;
+    width: 88px;
 }
 
 .options-menu ul li a{
@@ -106,4 +112,45 @@ body{
 
 .register:hover{
     background-color: #378b39;
+}
+
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 120px;;
+}
+
+.content-section-one{
+    text-align: center;
+}
+
+.content-section-one h2{
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: var(--neutralGray);
+}
+
+.content-section-one span{
+    color: var(--secondNeutralGray);
+    font-size: 12px;
+}
+
+.section-one h3{
+    font-size: 28px;
+    margin-top: 40px;
+    max-width:400px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: var(--neutralGray);
+    
+}
+
+
+.section-one span{
+    font-size: 12px;
+    color: var(--secondNeutralGray);
 }
