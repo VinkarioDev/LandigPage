@@ -10,6 +10,57 @@
 
     --primarycolor:#4CAF4F;
     --neutralBlack: #263238;
+    --primaryBlack:#18191F;
     --neutralGray: #4D4D4D;
     --secondNeutralGray:#717171;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.options-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.options-menu ul li{
+    list-style: none;
+}
+
+.options-menu ul li a{
+    text-decoration: none;
+    color: var(--primaryBlack);
+}
+
+.options-menu ul li a:hover{
+   color: var(--primaryBlack);
+   font-weight: bold;
+}
+
+.login{
+ display: flex;
+ gap: 14px ;
+ 
+}
+
+.login a{
+    width: 91px;
+    height: 41px;
+    text-decoration: none;
+    color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login a:hover{
+    background-color: var(--primarycolor);
+    border-radius: 6px;
+    color: #fff
 }
