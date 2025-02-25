@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+}
+
+:root{
+
+    --primarycolor:#4CAF4F;
+    --neutralBlack: #263238;
+    --neutralGray: #4D4D4D;
+    --secondNeutralGray:#717171;
+}
