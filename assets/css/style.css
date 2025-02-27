@@ -31,6 +31,8 @@ body{
     left: 140px;
     right: 140px;
     background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .options-menu{
@@ -51,6 +53,7 @@ body{
 .options-menu ul li a:hover{
    color: var(--primaryBlack);
    font-weight: bold;
+   transition: 100ms ease-in-out all;
 }
 
 .login{
@@ -73,7 +76,9 @@ body{
 .login a:hover{
     background-color: var(--primarycolor);
     border-radius: 6px;
-    color: #fff
+    color: #fff;
+    transition: 300ms ease-in-out all;
+
 }
 
 .content-header{
@@ -112,6 +117,8 @@ body{
 
 .register:hover{
     background-color: #378b39;
+    transition: 300ms ease-in-out all;
+
 }
 
 
@@ -153,4 +160,52 @@ body{
 .section-one span{
     font-size: 12px;
     color: var(--secondNeutralGray);
+}
+
+
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    background-color: #fff;
+
+}
+
+.content-section-two{
+    display:flex ;
+    flex-direction: column;
+    gap: 15px;
+    width: 299px;
+    height: 323px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 80px;
+    box-shadow:5px 5px 15px  #0000000c;
+}
+
+.content-section-two:hover{
+    box-shadow:5px 5px 15px  #0000004a;
+    transition: 300ms all ease-in-out;
+
+}
+
+
+.content-section-two img{
+    width: 50px;
+}
+
+.content-section-two h3{
+    font-size: 23px;
+    color: var(--neutralGray);
+    max-width: 150px;
+    text-align: center;
+}
+
+.content-section-two p{
+    font-size: 12px;
+    color: var(--secondNeutralGray);
+    max-width: 200px;
+    text-align: center;
 }
